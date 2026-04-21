@@ -1,0 +1,12 @@
+results/
+*.log
+*.smcl
+.Rhistory
+.RData
+
+# Original root-level copies are ignored; organized copies under code/ and data/
+# are the files intended for the repository.
+/analysis.do
+/Income_Heterogeneity.R
+/Regional_Heterogeneity.R
+/SouthRiceNorthWheat_2010and2014.dta
