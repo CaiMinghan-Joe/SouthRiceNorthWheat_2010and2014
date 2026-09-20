@@ -1,0 +1,10 @@
+Manuscript table,Manuscript content,Replication output,Primary code module
+Table 1,Construction of analytical sample,output/tables/Table1_sample_construction.csv,code/modules/99_finalize_outputs.do
+Table 2,Principal variables and descriptive statistics,output/tables/Table2_descriptive_statistics.csv,code/modules/99_finalize_outputs.do
+Table 3,Baseline average marginal effects,output/tables/Table3_baseline.csv,code/modules/02_main_models.do
+Table 4,Historical agricultural-context models,output/tables/Table4_historical_context.csv,code/modules/02_main_models.do
+Table 5,Fairlie nonlinear decomposition,output/tables/Table5_fairlie.csv,code/modules/03_fairlie.do
+Table 6,Robustness checks,output/tables/Table6_robustness.csv,code/modules/04_robustness.do
+Table 7,PSM and IV-Probit analyses,output/tables/Table7_psm_iv.csv,code/modules/05_supplementary.do
+Table 8,Cognitive-pathway and two-wave lagged results,output/tables/Table8_khb_lagged.csv,code/modules/05_supplementary.do
+Table 9,Gender and age-group heterogeneity,output/tables/Table9_heterogeneity.csv,code/modules/06_gender_heterogeneity.do and code/modules/07_age_group_heterogeneity.do

@@ -1,0 +1,3 @@
+result,term,estimate,se,lower,upper,p,N,clusters
+Educational attainment,edu,.045272796831891,.0050868634,.035302728,.055242866,5.5875182e-19,15165,23
+Current household cultivation (wheat vs rice),1.plants,-.0152217900940297,.029767085,-.073564202,.043120626,.60909683,15165,23

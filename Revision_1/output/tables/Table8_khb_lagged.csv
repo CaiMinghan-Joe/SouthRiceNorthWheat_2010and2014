@@ -1,0 +1,9 @@
+model,scale,term,estimate,se,p,lower,upper,N,clusters,status,note
+S3_KHB,coefficient,edu:Reduced,.2008630058982019,.017778818,1.3441872e-29,.16601716,.23570885,15165,,ok,"KHB probit total, direct and rescaling-adjusted difference; cognition is not treated as causally identified mediation"
+S3_KHB,coefficient,edu:Full,.0929870393710404,.024728084,.00016965416,.044520885,.14145319,15165,,ok,"KHB probit total, direct and rescaling-adjusted difference; cognition is not treated as causally identified mediation"
+S3_KHB,coefficient,edu:Diff,.1078759665271615,.016419047,5.0257076e-11,.075695224,.14005671,15165,,ok,"KHB probit total, direct and rescaling-adjusted difference; cognition is not treated as causally identified mediation"
+S3_KHB_disentangle,component,edu:word_z,.054303945938113,.0096468609,1.8106492e-08,.035396446,.073211446,15165,,ok,KHB contribution of standardized word and math scores to the nested-model coefficient difference
+S3_KHB_disentangle,component,edu:math_z,.0535720206024272,.020570314,.0092052277,.013254948,.093889095,15165,,ok,KHB contribution of standardized word and math scores to the nested-model coefficient difference
+S4_lag,AME,edu2010,.0358925341785702,.013827754,.0094401753,.0087906346,.062994435,3533,19,ok,average probability derivatives in the selected two-wave sample; temporal ordering does not identify mediation
+S4_lag,AME,word_z2010,.0108018039731145,.014086224,.44317988,-.016806688,.038410295,3533,19,ok,average probability derivatives in the selected two-wave sample; temporal ordering does not identify mediation
+S4_lag,AME,math_z2010,.0027335442490149,.014089645,.84616739,-.024881652,.030348741,3533,19,ok,average probability derivatives in the selected two-wave sample; temporal ordering does not identify mediation
