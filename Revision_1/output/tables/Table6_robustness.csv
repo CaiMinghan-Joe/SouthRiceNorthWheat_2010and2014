@@ -1,0 +1,6 @@
+robustness_variant_id,model,term,estimate,se,p,N,clusters,status,note
+wave_2010,melogit,AME_edu,.0428849956298181,.0041037076,1.4605418e-25,8452,23,ok,fixed-part AME; facility control provisional
+wave_2014,melogit,AME_edu,.0481978495392752,.0071143829,1.2466007e-11,6704,20,ok,fixed-part AME; facility control provisional
+allrural_cropstatus,melogit,AME_edu,.0454301465433846,.0050224313,1.4905117e-19,15418,23,ok,fixed-part AME; facility control provisional
+probit,probit,AME_edu,.0479858188168188,.0048108534,1.9710811e-23,15165,23,ok,AME; facility control provisional
+unwinsorized_income,melogit,AME_edu,.04523026065239,.0051109879,8.7823927e-19,15165,23,ok,fixed-part AME; facility control provisional

@@ -1,0 +1,21 @@
+model,statistic,value,note
+S1_PSM,treated_before,5542,education at least junior secondary
+S1_PSM,controls_before,9623,education below junior secondary
+S1_PSM,treated_on_support,5540,treated observations retained on common support
+S1_PSM,unique_controls_used,9623,control observations with positive matching weight
+S1_PSM,offsupport_group0,0,group 0=below junior secondary; group 1=junior secondary or above
+S1_PSM,pscore_min_group0,.0092194287481867,estimated propensity-score range
+S1_PSM,pscore_max_group0,.8967351318672053,estimated propensity-score range
+S1_PSM,offsupport_group1,2,group 0=below junior secondary; group 1=junior secondary or above
+S1_PSM,pscore_min_group1,.0489332690052197,estimated propensity-score range
+S1_PSM,pscore_max_group1,.8999698137391289,estimated propensity-score range
+S2_IV,singleton_primary_observations,6,excluded because a leave-one-out community-wave mean is undefined
+S2_IV,singleton_community_waves,6,eligible-rural nonmissing-education community-wave groups of size one
+S2_IV,firststage_cluster_F,284.7427180014365,one excluded instrument; province-clustered test
+S2_IV,firststage_p,4.49469933681e-14,one excluded instrument; province-clustered test
+S2_IV,firststage_partial_R2,.0481665079933508,incremental conventional R-squared; clustered F is the inference statistic
+S2_IV,analysis_N,15159,primary rows with defined leave-one-out instrument
+S3_KHB,cognition_missing,0,wordtest/mathtest special codes were removed during source reconstruction
+S4_lag,2010_primary_with_2014_eligible_rural,3937,retained in the 2014 original-eligible rural file before complete-case and crop restrictions
+S4_lag,two_wave_primary_pairs,3535,meets the corrected primary-sample rules in both waves
+S4_lag,retention_from_2010_primary,.4182442025556081,"two-wave primary pairs divided by 8,452 primary observations in 2010"

@@ -10,3 +10,7 @@ results/
 /Income_Heterogeneity.R
 /Regional_Heterogeneity.R
 /SouthRiceNorthWheat_2010and2014.dta
+
+# Restricted CFPS-derived analysis datasets must remain local.
+/data/raw/SouthRiceNorthWheat_2010and2014.dta
+/Revision_1/data/HSSC_analysis_data_final.dta

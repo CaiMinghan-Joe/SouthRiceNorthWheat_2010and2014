@@ -1,0 +1,35 @@
+Variable,Label,Type,Coding,Manuscript name,Analytical role
+exercise,Previous-week physical exercise participation,binary,"0=no; 1=yes",Previous-week physical exercise participation,Outcome
+edu,Highest completed educational qualification,ordered categorical,"1=less than completed primary; 2=primary; 3=junior secondary; 4=senior secondary; 5=junior college; 6=bachelor; 7=master",Educational attainment,Core explanatory variable
+plants,Current household crop comparison,binary,"0=rice without wheat; 1=wheat without rice",Current household cultivation,Current cultivation
+rice_hist,Historical province-level paddy share,continuous proportion,0-1 proportion,Historical rice share,Historical agricultural context
+rice10,Historical paddy share per 10 percentage points,continuous,"rice_hist*10; 1 unit=10 percentage points",Historical rice share,Historical agricultural context
+ln_gdp_hist,Log historical provincial GDP per capita,continuous,ln of 1996 vendor GDP-per-capita indicator,Historical economic condition,Historical regional control
+urban2000_10,Historical provincial urban share per 10 percentage points,continuous,"urban2000*10; 1 unit=10 percentage points",Historical urbanisation,Historical regional control
+age,Respondent age,continuous,years,Age,Control and heterogeneity
+age_c,Centered respondent age,continuous,age-45,Age,Control
+age_c2,Squared centered respondent age,continuous,"(age-45)^2",Age squared,Control and PSM balance
+gender,Respondent sex,binary,"0=female; 1=male",Sex,Control and heterogeneity
+marriage,Current marital/cohabitation status,binary,"0=not married/cohabiting; 1=married/cohabiting",Marital status,Control
+income_raw,Reported household income,continuous,original non-negative value before transformation,Household income,Source variable
+income_w,Winsorised non-negative household income,continuous,wave-specific 1st/99th percentile winsorisation,Household income,Control construction
+ln_income,Log winsorised household income,continuous,ln(income_w+1),Household income,Control
+ln_income_raw,Log non-winsorised non-negative household income,continuous,ln(income_clean+1),Household income,Robustness
+health_raw,Original self-rated health code,ordered categorical,"1=very healthy; 2=healthy; 3=relatively healthy; 4=fair; 5=unhealthy; negative=missing",Self-rated health,Source variable
+health3,Corrected three-category self-rated health,ordered categorical,"1=Good (raw 1-3); 2=Fair (raw 4); 3=Poor (raw 5)",Self-rated health,Control
+health_fair,Fair-health indicator,binary,1 if health3=2,Self-rated health: Fair,PSM and Fairlie
+health_poor,Poor-health indicator,binary,1 if health3=3,Self-rated health: Poor,PSM and Fairlie
+sportsArea,Community sports facility,binary,"0=no; 1=yes",Community sports facility,Control
+wordtest,Vocabulary test score,continuous,CFPS comparable score,Vocabulary test score,Cognitive pathway
+mathtest,Mathematics test score,continuous,CFPS comparable score,Mathematics test score,Cognitive pathway
+year,Survey wave,categorical,"2010 or 2014",Survey wave,Fixed effect and lagged analysis
+year14,2014 wave indicator,binary,1 if year=2014,Survey wave,PSM and Fairlie
+provcd,Province code,categorical,CFPS public-use province code,Province,Fixed effect and clustered inference
+cid_wave,Community-wave identifier,categorical,group(year cid),Community-wave,Random intercept and IV construction
+pid,Individual identifier,identifier,CFPS person identifier,Individual identifier,Panel linkage
+part,North-South region indicator,binary,"0=South; 1=North",North-South region,Fairlie grouping
+crop_status,Current household crop-status category,categorical,"neither; rice only; wheat only; mixed",Current cultivation,All-rural robustness
+sample_rural,Eligible rural observation,binary,1 for all rows in final local DTA,Rural sample,Sample construction
+sample_current_ricewheat,Current rice-wheat comparison indicator,binary,1 if plants is 0 or 1,Current rice-wheat comparison,Sample construction
+sample_allrural,All-rural complete-case indicator,binary,1 if retained in all-rural robustness sample,All-rural sample,Robustness
+sample_primary,Final primary analytical-sample indicator,binary,1 if retained in final N=15165 sample,Final analytical sample,Primary analysis

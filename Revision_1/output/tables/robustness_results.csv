@@ -1,0 +1,67 @@
+robustness_variant_id,model,term,estimate,se,p,N,clusters,status,note
+wave_2010,melogit,edu,.4635319375069863,.046410397,1.7258336e-23,8452,23,ok,frozen baseline within wave; facility control provisional
+wave_2010,melogit,AME_edu,.0428849956298181,.0041037076,1.4605418e-25,8452,23,ok,fixed-part AME; facility control provisional
+wave_2014,melogit,edu,.2820166682351939,.044295523,1.9312800e-10,6704,20,ok,frozen baseline within wave; facility control provisional
+wave_2014,melogit,AME_edu,.0481978495392752,.0071143829,1.2466007e-11,6704,20,ok,fixed-part AME; facility control provisional
+allrural_cropstatus,melogit,edu,.3571587773613957,.040513337,1.1879972e-18,15418,23,ok,all rural; i.crop_status retains neither and mixed; facility control provisional
+allrural_cropstatus,melogit,AME_edu,.0454301465433846,.0050224313,1.4905117e-19,15418,23,ok,fixed-part AME; facility control provisional
+probit,probit,edu,.1971022841189175,.019491361,4.8732048e-24,15165,23,ok,"province/year FE, province clustered; facility control provisional"
+probit,probit,AME_edu,.0479858188168188,.0048108534,1.9710811e-23,15165,23,ok,AME; facility control provisional
+education_categorical,melogit,exercise:1b.edu_cat,0,0,,15165,23,ok,"education categories, 6+ combined; facility control provisional"
+education_categorical,melogit,exercise:2.edu_cat,.404220138828527,.095489576,.000023045759,15165,23,ok,"education categories, 6+ combined; facility control provisional"
+education_categorical,melogit,exercise:3.edu_cat,.6439483364223515,.13347174,1.4028159e-06,15165,23,ok,"education categories, 6+ combined; facility control provisional"
+education_categorical,melogit,exercise:4.edu_cat,1.155273629350509,.12306414,6.1398378e-21,15165,23,ok,"education categories, 6+ combined; facility control provisional"
+education_categorical,melogit,exercise:5.edu_cat,1.142639231980298,.26258737,.000013523223,15165,23,ok,"education categories, 6+ combined; facility control provisional"
+education_categorical,melogit,exercise:6.edu_cat,2.365718508397797,.28790832,2.0880306e-16,15165,23,ok,"education categories, 6+ combined; facility control provisional"
+unwinsorized_income,melogit,edu,.3580516304955628,.041529827,6.6051584e-18,15165,23,ok,uses ln_income_raw; facility control provisional
+unwinsorized_income,melogit,AME_edu,.04523026065239,.0051109879,8.7823927e-19,15165,23,ok,fixed-part AME; facility control provisional
+leaveout_p13,melogit,edu,.3592441784059471,.045506354,2.9177591e-15,14145,22,ok,excluded province 13; facility control provisional
+leaveout_p13,melogit,AME_edu,.0445593949881198,.0055161049,6.5808451e-16,14145,22,ok,excluded province 13; fixed-part AME; facility control provisional
+leaveout_p14,melogit,edu,.3654017553723343,.041231923,7.8515575e-19,14770,22,ok,excluded province 14; facility control provisional
+leaveout_p14,melogit,AME_edu,.0456375573461457,.0049991496,6.9094177e-20,14770,22,ok,excluded province 14; fixed-part AME; facility control provisional
+leaveout_p21,melogit,edu,.3665032668637752,.04073726,2.3248141e-19,14790,22,ok,excluded province 21; facility control provisional
+leaveout_p21,melogit,AME_edu,.0459494395473358,.0049611423,2.0088878e-20,14790,22,ok,excluded province 21; fixed-part AME; facility control provisional
+leaveout_p22,melogit,edu,.3597378661780526,.041674767,6.0272106e-18,15093,22,ok,excluded province 22; facility control provisional
+leaveout_p22,melogit,AME_edu,.045379274805686,.0051160492,7.3156582e-19,15093,22,ok,excluded province 22; fixed-part AME; facility control provisional
+leaveout_p23,melogit,edu,.3561412579041962,.041997235,2.2497690e-17,15120,22,ok,excluded province 23; facility control provisional
+leaveout_p23,melogit,AME_edu,.0449361250994048,.0051731165,3.7387211e-18,15120,22,ok,excluded province 23; fixed-part AME; facility control provisional
+leaveout_p31,melogit,edu,.361360989736993,.04132897,2.2594219e-18,15141,22,ok,excluded province 31; facility control provisional
+leaveout_p31,melogit,AME_edu,.0456018845080334,.0050670719,2.2643343e-19,15141,22,ok,excluded province 31; fixed-part AME; facility control provisional
+leaveout_p32,melogit,edu,.3560024583633563,.041843448,1.7701688e-17,15148,22,ok,excluded province 32; facility control provisional
+leaveout_p32,melogit,AME_edu,.0449687048977941,.0051570833,2.7870771e-18,15148,22,ok,excluded province 32; fixed-part AME; facility control provisional
+leaveout_p33,melogit,edu,.3582935645267111,.041707501,8.6496523e-18,15131,22,ok,excluded province 33; facility control provisional
+leaveout_p33,melogit,AME_edu,.0452392107061461,.0051320815,1.1970316e-18,15131,22,ok,excluded province 33; fixed-part AME; facility control provisional
+leaveout_p34,melogit,edu,.3559484637528357,.042715799,7.8854658e-17,14940,22,ok,excluded province 34; facility control provisional
+leaveout_p34,melogit,AME_edu,.0450386798633828,.0052716909,1.3021917e-17,14940,22,ok,excluded province 34; fixed-part AME; facility control provisional
+leaveout_p35,melogit,edu,.3546014585625804,.042171709,4.1523368e-17,15057,22,ok,excluded province 35; facility control provisional
+leaveout_p35,melogit,AME_edu,.0448167202358617,.0052061356,7.4059598e-18,15057,22,ok,excluded province 35; fixed-part AME; facility control provisional
+leaveout_p36,melogit,edu,.3536074197566137,.043783106,6.6737588e-16,14608,22,ok,excluded province 36; facility control provisional
+leaveout_p36,melogit,AME_edu,.0452000658508387,.005466654,1.3585565e-16,14608,22,ok,excluded province 36; fixed-part AME; facility control provisional
+leaveout_p37,melogit,edu,.3623814820767298,.042481173,1.4583982e-17,14346,22,ok,excluded province 37; facility control provisional
+leaveout_p37,melogit,AME_edu,.0459523994091569,.005239964,1.7929830e-18,14346,22,ok,excluded province 37; fixed-part AME; facility control provisional
+leaveout_p41,melogit,edu,.3664101983785509,.053047623,4.9433522e-12,11984,22,ok,excluded province 41; facility control provisional
+leaveout_p41,melogit,AME_edu,.042001903319571,.0060323933,3.3375041e-12,11984,22,ok,excluded province 41; fixed-part AME; facility control provisional
+leaveout_p42,melogit,edu,.3535726967622755,.042184237,5.2199302e-17,15025,22,ok,excluded province 42; facility control provisional
+leaveout_p42,melogit,AME_edu,.044769179369138,.0052236789,1.0309814e-17,15025,22,ok,excluded province 42; fixed-part AME; facility control provisional
+leaveout_p43,melogit,edu,.3664403955825798,.040538948,1.5779657e-19,14719,22,ok,excluded province 43; facility control provisional
+leaveout_p43,melogit,AME_edu,.0466890531771073,.0050083054,1.1381760e-20,14719,22,ok,excluded province 43; fixed-part AME; facility control provisional
+leaveout_p44,melogit,edu,.3623725231952786,.044060837,1.9622380e-16,13939,22,ok,excluded province 44; facility control provisional
+leaveout_p44,melogit,AME_edu,.045816297948107,.0053156177,6.7431507e-18,13939,22,ok,excluded province 44; fixed-part AME; facility control provisional
+leaveout_p45,melogit,edu,.3620101625701004,.041654449,3.5992109e-18,14637,22,ok,excluded province 45; facility control provisional
+leaveout_p45,melogit,AME_edu,.0461523764909124,.0051463339,3.0191953e-19,14637,22,ok,excluded province 45; fixed-part AME; facility control provisional
+leaveout_p50,melogit,edu,.356507158610594,.042082522,2.4200272e-17,15038,22,ok,excluded province 50; facility control provisional
+leaveout_p50,melogit,AME_edu,.045141353490188,.005182913,3.0481639e-18,15038,22,ok,excluded province 50; fixed-part AME; facility control provisional
+leaveout_p51,melogit,edu,.3669592308661828,.041412812,7.9294454e-19,14493,22,ok,excluded province 51; facility control provisional
+leaveout_p51,melogit,AME_edu,.0467290430121922,.0049896347,7.5889847e-21,14493,22,ok,excluded province 51; fixed-part AME; facility control provisional
+leaveout_p52,melogit,edu,.3561665173415253,.043212228,1.6898421e-16,14436,22,ok,excluded province 52; facility control provisional
+leaveout_p52,melogit,AME_edu,.0458962398571994,.0054147225,2.3268053e-17,14436,22,ok,excluded province 52; fixed-part AME; facility control provisional
+leaveout_p53,melogit,edu,.3562219452456852,.042596795,6.1326807e-17,14642,22,ok,excluded province 53; facility control provisional
+leaveout_p53,melogit,AME_edu,.0457460249177279,.005334124,9.8137080e-18,14642,22,ok,excluded province 53; fixed-part AME; facility control provisional
+leaveout_p61,melogit,edu,.3602633879762037,.04185234,7.4370212e-18,14965,22,ok,excluded province 61; facility control provisional
+leaveout_p61,melogit,AME_edu,.0454823258989126,.0051409765,8.9886512e-19,14965,22,ok,excluded province 61; fixed-part AME; facility control provisional
+leaveout_p62,melogit,edu,.3124744428411998,.025282437,4.3365823e-35,11463,22,ok,excluded province 62; facility control provisional
+leaveout_p62,melogit,AME_edu,.0409718960140971,.0035338339,4.4108615e-31,11463,22,ok,excluded province 62; fixed-part AME; facility control provisional
+historical_urban2016,logit,edu,.3518348891854796,.035463098,3.3683616e-23,15165,23,ok,historical urban2016 replacement; facility control provisional
+historical_urban2016,logit,AME_rice10,-.0065614414030639,.002294726,.0042450032,15165,23,ok,historical urban2016 replacement; facility control provisional
+historical_excl_SC_CQ,logit,edu,.3592437514993562,.035093911,1.3587260e-24,14366,21,ok,exclude provinces 50 and 51; facility control provisional
+historical_excl_SC_CQ,logit,AME_rice10,-.0074448515965727,.0026376469,.0047645564,14366,21,ok,exclude provinces 50 and 51; facility control provisional

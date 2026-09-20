@@ -1,0 +1,8 @@
+Stata 17 or later
+
+Required user-written Stata commands:
+- fairlie: ssc install fairlie
+- khb: ssc install khb
+- psmatch2: ssc install psmatch2
+
+The master do-file does not install commands or access the internet automatically.
