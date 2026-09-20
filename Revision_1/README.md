@@ -2,7 +2,7 @@
 
 ## Release status
 
-**REVIEW REQUIRED.** A clean one-click Stata run completed on 20 September 2026. Eighteen of the twenty frozen checks passed. Two interaction-test p-values differ from the clean manuscript at three-decimal precision; see `REPLICATION_EXCEPTION_REPORT.md` and `documentation/result_crosswalk.csv`. The model specifications and manuscript were not changed.
+
 
 ## Manuscript
 
