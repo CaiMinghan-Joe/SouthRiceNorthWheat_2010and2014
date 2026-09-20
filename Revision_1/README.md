@@ -1,9 +1,5 @@
 # HSSC Replication Package
 
-## Release status
-
-
-
 ## Manuscript
 
 This package reproduces the formal empirical results reported in:
